@@ -1,0 +1,73 @@
+.dateinputarea {
+    width: 300px;
+}
+
+.titleinputarea {
+    width: 300px;
+}
+
+#listtitle {
+    display: flex;
+    justify-content: center;
+}
+
+#dateinput {
+    display: flex;
+    justify-content: center;
+}
+
+#titleinput {
+    display: flex;
+    justify-content: center;
+}
+
+#description {
+    height: 150px;
+    width: 265px;
+}
+
+#descriptioninput {
+    display: flex;
+    justify-content: center;
+}
+
+#submitButton {
+    width: 150px;
+    padding: 5px;
+    border-radius: 20px;
+    margin-left: 620px;
+}
+
+#submitButton:hover {
+    background-color: rgb(122, 83, 83);
+}
+
+.outputList {
+    display: flex;
+    justify-content: center;
+}
+
+.headings {
+    background-color: rgb(115, 118, 122);
+}
+
+.dataHeading {
+    width: 250px;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.dataAdded {
+    font-size: larger;
+    background-color: rgb(182, 182, 182);
+}
+
+#delete {
+    width: 150px;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+#delete:hover {
+    background-color: rgb(122, 83, 83);
+}

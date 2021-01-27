@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Todo list App</title>
+</head>
+
+<body>
+    <h1 id="listtitle">Todo List App</h1>
+
+    <div class="input">
+        <p id="dateinput">Date : <input class="dateinputarea" type="date" name="" id="date"> </p>
+        <p id="titleinput">Title : <input type="text" class="titleinputarea" name="" id="title" placeholder="Add Title"></p>
+        <p id="descriptioninput">Description :<textarea name="" id="description"></textarea></p>
+        <input type="submit" name="" id="submitButton" onclick="inputDetails()">
+
+    </div>
+    <div class="outputList">
+        <table>
+            <tr class="headings">
+                <td class="dataHeading">Date</td>
+                <td class="dataHeading">Title</td>
+                <td class="dataHeading">Description</td>
+                <td class="dataHeading">Edit</td>
+            </tr>
+            <tr class="details">
+                <td class="dataAdded" id="1"> </td>
+                <td class="dataAdded" id="2"></td>
+                <td class="dataAdded" id="3"></td>
+                <td class="dataAdded" id="4"></td>
+            </tr>
+        </table>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
